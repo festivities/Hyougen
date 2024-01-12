@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ChamberLib" Version="0.12.0" />
     <PackageReference Include="FbxSharp" Version="0.9.0" />
     <PackageReference Include="OpenTK" Version="4.8.2" />
   </ItemGroup>

@@ -24,7 +24,7 @@ namespace Hyougen {
 
             GL.BindVertexArray(VertexArrayObject);
             GL.BindBuffer(BufferTarget.ArrayBuffer, VertexBufferObject);
-            GL.BufferData(BufferTarget.ArrayBuffer, Scene.vertices.Length * sizeof(float), Scene.vertices, BufferUsageHint.StaticDraw);
+            GL.BufferData(BufferTarget.ArrayBuffer, Scene.vertices.Count * sizeof(float), Scene.vertices, BufferUsageHint.StaticDraw);
 
             GL.VertexAttribPointer(0, 3, VertexAttribPointerType.Float, false, 3 * sizeof(float), 0);
             GL.EnableVertexAttribArray(0);

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChamberLib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,12 +7,7 @@ using System.Threading.Tasks;
 
 namespace Hyougen {
     internal class Scene {
-        public static readonly float[] vertices = {
-             0.5f,  0.5f, 0.0f, 
-             0.5f, -0.5f, 0.0f,
-            -0.5f, -0.5f, 0.0f, 
-            -0.5f,  0.5f, 0.0f 
-        };
+        public static HashSet<Vertex_PBiBwNT> vertices;
 
         public static readonly uint[] indices = {
             0, 1, 3,  

@@ -1,3 +1,4 @@
 # Dependencies
 - OpenTK
 - FbxSharp
+- ChamberLib
